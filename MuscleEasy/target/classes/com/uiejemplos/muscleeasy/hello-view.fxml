@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uiejemplos.muscleeasy.Controlador">
+   <children>
+      <Label layoutX="19.0" layoutY="35.0" prefHeight="19.0" prefWidth="331.0" text="¿Cuantas botellas de Muscle Easy quieres hacer?">
+         <font>
+
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFldBotellas" layoutX="79.0" layoutY="61.0" onAction="#onActionTxtFldBotellas" />
+      <Label layoutX="523.0" layoutY="36.0" text="Porciones" />
+      <Label layoutX="379.0" layoutY="36.0" text="Ingredientes" />
+      <Label layoutX="380.0" layoutY="86.0" text="Trietalamina" />
+      <Label layoutX="389.0" layoutY="131.0" text="Carbopol" />
+      <Label layoutX="375.0" layoutY="175.0" text="Agua destilada" />
+      <Label layoutX="387.0" layoutY="215.0" text="Colorante" />
+      <Label layoutX="374.0" layoutY="258.0" text="Hoja de arnica" />
+      <Label layoutX="370.0" layoutY="310.0" text="Petalo de arnica" />
+      <Label layoutX="376.0" layoutY="360.0" text="Flor de arnica" />
+      <Label layoutX="362.0" layoutY="406.0" text="Alcohol Isopropilico" />
+      <TextField fx:id="txtFldTrieta" layoutX="482.0" layoutY="82.0" onAction="#onActionTxtFldTrieta" />
+      <TextField fx:id="txtFldCarbo" layoutX="482.0" layoutY="127.0" onAction="#onActionTxtFldCarbo" />
+      <TextField fx:id="txtFldAgua" layoutX="482.0" layoutY="171.0" onAction="#onActionTxtFldAgua" />
+      <TextField fx:id="txtFldColor" layoutX="482.0" layoutY="211.0" onAction="#onActionTxtFldColor" />
+      <TextField fx:id="texFldHoja" layoutX="482.0" layoutY="254.0" onAction="#onActionTextFldHoja" />
+      <TextField fx:id="texFldPetalo" layoutX="482.0" layoutY="306.0" onAction="#onActionTextFldPetalo" />
+      <TextField fx:id="TextFldFlor" layoutX="482.0" layoutY="356.0" onAction="#onActionTextFldFlor" />
+      <TextField fx:id="TextFldAlcohol" layoutX="482.0" layoutY="402.0" onAction="#onActionTextFldAlcohol" />
+      <Button fx:id="btnCalcular" layoutX="235.0" layoutY="61.0" mnemonicParsing="false" onAction="#onActionCalcular" text="Calcular" textFill="#0df21d" />
+      <Button fx:id="btnSalir" layoutX="146.0" layoutY="377.0" mnemonicParsing="false" onAction="#onActionBtnSalir" text="Salir" textFill="#f20000" />
+      <ImageView fitHeight="234.0" fitWidth="237.0" layoutX="54.0" layoutY="112.0">
+         <image>
+            <Image url="@../../../MusckeEasy.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
